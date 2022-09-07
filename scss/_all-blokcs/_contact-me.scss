@@ -1,0 +1,98 @@
+.contact_top{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-top--text{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+.contact_top-right{
+    width: 60%;
+    &--padding{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    }
+}
+.contact_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-bottom--text{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+.contact-form{
+    width: 60%;
+    &--padding{
+        font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+}
+.contact-form-input{
+    background: #d8d8dc;
+    mix-blend-mode: normal;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    width: 100%;
+    border: transparent;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.contact-form--button{
+    background: #203A4C;
+    border: transparent;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    margin-top: 23px;
+    margin-bottom: 107px;
+}
+@media only screen and(max-width : 768px) {
+    .contact_top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_top-right{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}
